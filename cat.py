@@ -4,7 +4,7 @@
 # 2 classes level variables
 # 3 objects
 # Display all information with each object
-# Change class level variabes in each object and dipalys
+# Change class level variables in each object and dipalys
 
 
 # Create a cat called Class
@@ -41,7 +41,7 @@ print(Tom.colour)
 # print the meow function of Tom
 print(Tom.meow())
 # Change Tom's colour to Grey
-Tom.colour="Grey"
+Tom.colour="Grey and white"
 # print out the ammended colour attribute of Tom
 print(Tom.colour)
 
@@ -60,5 +60,5 @@ Cheshire.colour="Pink and Purple"
 print(Cheshire.colour)
 # Change animal Kind attribute of cheshire to imagination
 Cheshire.animal_kind="Imagination"
-# print out the amended animal kin attribute of Cheshire
+# print out the amended animal kind attribute of Cheshire
 print(Cheshire.animal_kind)
