@@ -49,12 +49,15 @@ class Dog:
 fido = Dog() 
 ```
 * We have created an instance of the dog class and stored it in the variable ```fido```.
-* If we print this instance, the memory location of the instance ```fido``` is returned:
+* If we print this instance, the memory location of the instance is returned:
 ```python
 print(fido)
-# The output will look something like this
-# <__main__.Dog object at 0x10d704040>
 ```
+* The output will look something like this:
+```
+<__main__.Dog object at 0x10d704040>
+``` 
+
 * We have transferred all the attributes to fido. Just as we could do ```.upper``` or ```.lower``` etc. in python, we can do the same to ```fido```. But only with attributes which exist in the class i.e. ```animal_kind``` and the function ```bark```.
 ```python
 print(fido.animal_kind) # Returns canine.
