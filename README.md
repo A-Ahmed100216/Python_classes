@@ -7,11 +7,15 @@
 
 ## Object Oriented Programming (OOP)
 There are 4 pillars:
-1. Inheritance 
-2. Encapsulation
-3. Abstraction
-4. Polymorphism - Refers to programming language's ability to process objects differently depending on their date type or class. More specifically, it is the ability to redefine methods for derived classes.
-
+1. Inheritance - Eliminates redundant code
+  * Enables new classes to take on properties of existing classes.
+  * We can use all the behaviours and attributes assocaited with the parent class. 
+2. Encapsulation - Reduce complexity and increase re-usability.
+  * Collating data and functions together 
+3. Abstraction - Reduce complexity and isolate impact of changes 
+4. Polymorphism - Refactor code or case statements.
+  * Refers to programming language's ability to process objects differently depending on their date type or class. More specifically, it is the ability to redefine methods for derived classes.
+  * Allows us to change behaviours or attributes.
 
 ## What are Classes?
 * In object oriented programming, everything is an object. 
@@ -82,3 +86,7 @@ print(fido.animal_kind)
 print(lassie.animal_kind) # Returns "canine"
 ```
 * ***Any change we make to an object, does not impact the original class***
+
+# OOP 
+Methods and Functions accomplish the same job but functions exist in classes 
+
